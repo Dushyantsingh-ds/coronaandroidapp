@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".protect_yourself">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfv"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+    </com.github.barteksc.pdfviewer.PDFView>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+       <Button
+        android:text="when and how to use mask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"/>
+               <Button
+                   android:text="video"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/button0"/>
+           </LinearLayout>
+    <Button
+        android:text="ask who"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"/>
+    <Button
+        android:text="be ready for corona virus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"/>
+    <Button
+        android:text="how to cope with stress during 2019 covid outbreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"/>
+    <Button
+        android:text="parenting in the time of covid 19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"/>
+    <Button
+        android:text="protect yourself and others from getting sick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"/>
+    <Button
+        android:text="stay healthy while travlling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"/>
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
+</RelativeLayout>
